@@ -5,7 +5,7 @@ let articleView = {};
 // TODO: Where possible, refactor methods into arrow functions, including the document.ready() method at the bottom.
 
 // COMMENT: How do arrow functions affect the context of "this"? How did you determine if a function could be refactored?
-// Arrow functions changes the context of 'this' by making it 'unbinding' to the function. This means that the 'this' value is not exclusive to the function that it is called in.
+// Arrow functions changes the context of 'this' by making it 'unbinding' to the function. This means that the 'this' value keeps its meaning from its original context rather than being exclusive to the function it is being called in.
 
 
 articleView.populateFilters = function () {
